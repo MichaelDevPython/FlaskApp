@@ -1,0 +1,14 @@
+﻿.card {
+    width: 1430px;
+    height: 500px;
+    background-color: #151515;
+    border: 5px solid;
+    border-image: linear-gradient(#ff00cc,#333399,#dd2476 ) 1;
+    animation: rotate 2.5s ease-in infinite;
+}
+
+@keyframes rotate {
+    50% {
+        border-image: linear-gradient(360deg, lightskyblue,darkcyan, #1c64ff) 1;
+    }
+}

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Extractor_APP", "Extractor_APP.pyproj", "{D26B4CEF-1705-4CAB-99FD-9892C7B5711C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D26B4CEF-1705-4CAB-99FD-9892C7B5711C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D26B4CEF-1705-4CAB-99FD-9892C7B5711C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C35DB7E9-1770-46A3-A02A-771EB3B3FB73}
+	EndGlobalSection
+EndGlobal

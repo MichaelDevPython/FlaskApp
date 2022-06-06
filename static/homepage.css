@@ -1,0 +1,102 @@
+body {
+    background-image: url("extractor_ice.jpg");
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.topnav {
+    position: relative;
+    opacity: 1.0;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Copperplate", "Copperplate", fantasy;
+    width:160px;
+    }
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: #373333;
+    color: white;
+}
+
+
+
+h3, h1 {
+    color: #2115c6;
+    font-size: 23px;
+    text-align: center;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.button {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 3px;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(115deg,#ff00cc,#333399,#dd2476 );
+    background-size: 50% 100%;
+    border-radius: inherit;
+}
+
+.button:hover::before {
+    animation: animate_border .5s linear infinite;
+}
+
+@keyframes animate_border {
+    to {
+        transform: translate(-50%)
+    }
+}
+
+.button span {
+    display: block;
+    background-color: black;
+    padding: 5px;
+    border-radius: 3px;
+    position: relative;
+    z-index: 2;
+}
+
+.icon-bar {
+    width: 200px;
+    background-color: #555;
+}
+
+.icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        font-size: 36px;
+}

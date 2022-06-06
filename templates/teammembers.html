@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="{{ icon_image }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href={{ url_for('static',filename='homepage.css') }}>
+    <title>{% block title %}{% endblock %} </title>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="button" href="{{ url_for('home') }}"><span class='bi bi-house-door'>Home</span> </a>
+        <a class="button" href="games"><span class='bi bi-controller'>Games</span></a>
+        <a class="button" href="https://discord.gg/pqAZK9GhDF" target="_blank"><span class='bi bi-discord' style='color:rebeccapurple'>Discord</span></a>
+        <a class="button" href="statute"><span class='bi bi-journal-richtext'>Statute</span> </a>
+        <a class="active button" href="teammembers"><span class='bi bi-people-fill'>Team</span></a>
+	    <a class="button" href="login"><span class='bi bi-person-circle'>Login</span></a>
+	    <a class="button" href="register"><span class='bi bi-person-circle'>Register</span></a>
+	    <a class="button" href="account"><span class='bi bi-mortarboard-fill'>Account</span> </a>
+    </div>
+</body>
+
+</html>

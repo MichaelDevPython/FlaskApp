@@ -1,0 +1,54 @@
+﻿fieldset {
+    max-width: 500px;
+    padding: 16px;
+    border: 0;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    top: 100px;
+    left: 500px;
+    right: 500px;
+    text-align: left;
+    font-size: 35px;
+    font-family: "Copperplate", "Copperplate", fantasy;
+    font-stretch: expanded;
+    padding: 6px;
+    border-radius: 3px;
+    position: relative;
+    color: #eab3c1;
+}
+
+.title {
+    font-family: "Brush Script MT", Cursive;
+    font-size: 50px;
+}
+
+.form-control-lg {
+    background-color: #87cefa;
+    border: 2px solid #1d2395;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.btn {
+    display: inline;
+    padding: 12px 24px;
+    background: #ff00cc;
+    font-weight: bold;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    transition: ease .3s;
+    position: relative;
+    top: 110px;
+    left: 680px;
+    right: 680px;
+}
+
+.btn:hover {
+    background: black;
+    color: #ff00cc;
+}

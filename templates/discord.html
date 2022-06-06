@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href={{ url_for('static',filename='homepage.css') }}>
+    <title>{% block title %}{% endblock %} </title>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="button" href="{{ url_for('home') }}"><span>Home</span></a>
+        <a class="button" href="games"><span>Games</span></a>
+        <a class="active button" href="discord"><span>Discord</span></a>
+        <a class="button" href="statute"><span>Statute</span></a>
+        <a class="button" href="teammembers"><span>Team</span></a>
+	    <a class="button" href="login"><span class='bi bi-person-circle'>Login</span></a>
+	    <a class="button" href="register"><span class='bi bi-person-circle'>Register</span></a>
+	    <a class="button" href="account"><span class='bi bi-mortarboard-fill'>Account</span> </a>
+    </div>
+    <img src="{{ user_image }}" class="center">>
+</body>
+
+</html>
